@@ -36,5 +36,10 @@ public class User {
 		this.lastName = lastName;
 	}
 
-
+	@Override
+	public String toString() {
+		return "User [firstName=" + firstName + ", lastName=" + lastName + ", getFirstName()=" + getFirstName()
+				+ ", getLastName()=" + getLastName() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
+				+ ", toString()=" + super.toString() + "]";
+	}
 }
