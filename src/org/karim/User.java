@@ -34,4 +34,8 @@ public class User {
 	public void greeting() {
 		System.out.println("Say Hello!!! " + this.firstName);
 	}
+	
+	public void addComment() {
+		this.firstName = "unknown";
+	}
 }
