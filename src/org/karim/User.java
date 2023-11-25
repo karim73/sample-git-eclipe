@@ -5,7 +5,6 @@ public class User {
 	private String firstName;
 	private String lastName;
 
-	
 	public User() {
 	}
 
@@ -15,22 +14,17 @@ public class User {
 		this.lastName = lastName;
 	}
 
-
-
 	public String getFirstName() {
 		return firstName;
 	}
-
 
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
 
-
 	public String getLastName() {
 		return lastName;
 	}
-
 
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
@@ -41,5 +35,9 @@ public class User {
 		return "User [firstName=" + firstName + ", lastName=" + lastName + ", getFirstName()=" + getFirstName()
 				+ ", getLastName()=" + getLastName() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
 				+ ", toString()=" + super.toString() + "]";
+	}
+
+	public void greeting() {
+		System.out.println("Say Hello!!! " + this.firstName);
 	}
 }
